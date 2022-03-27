@@ -7,17 +7,17 @@ import Router from 'vue-router'
 Vue.use(Router)
 const routes = [
     {
-        path: "/",
+        path: "/clientsList",
         name: "home",
         component: Clients,
     },
     {
-        path: "/card",
+        path: "/clientsList/card",
         name: "card",
         component: OpenedCard,
     },
     {
-        path: "/new",
+        path: "/clientsList/new",
         name: "new",
         component: NewCard,
     }
