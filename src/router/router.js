@@ -3,11 +3,12 @@ import OpenedCard from '@/components/OpenedCard.vue'
 import NewCard from '@/components/NewCard.vue'
 import Vue from 'vue'
 import Router from 'vue-router'
+import createHashHistory from 'vue-router'
 
 Vue.use(Router)
 const routes = [
     {
-        path: "/clientsList",
+        path: "/",
         name: "home",
         component: Clients,
     },
@@ -23,7 +24,8 @@ const routes = [
     }
 ]
 const router = new Router({
-    mode: 'history',
+    mode: 'hash',
+    history: createHashHistory,
     routes
 })
 export default router;
