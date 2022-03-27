@@ -1,0 +1,61 @@
+.wrapper__card {
+    max-width: 550px;
+    height: 600px;
+    padding: 15px;
+    margin-top: 30px;
+    border: 1px solid grey;
+    box-shadow: 20px -15px 10px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 10px;
+    background: whitesmoke
+        radial-gradient(
+            circle at 50% 0,
+            rgba(255, 255, 255, 0.65),
+            rgba(255, 255, 255, 0.35)
+        );
+}
+.client {
+    border: 0;
+    color: black;
+    text-align: start;
+    border-left: 1px solid lightgrey;
+    line-height: 1.5;
+}
+.id {
+    color: black;
+}
+.info__card {
+    display: flex;
+    padding-left: 25px;
+    margin-top: 10px;
+}
+.inputText {
+    border: 0;
+    padding-left: 9px;
+    min-width: 169px;
+    cursor: default;
+}
+.open__btns {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+}
+.textArea {
+    resize: none;
+    padding-left: 9px;
+    padding-top: 5px;
+    border: 0;
+}
+.clientName__card {
+    display: flex;
+    justify-content: center;
+}
+.onEdit {
+    border: 1px solid black;
+}
+.disableButton {
+    display: none;
+}

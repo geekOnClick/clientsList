@@ -1,0 +1,16 @@
+@import './variables.scss';
+@import './blocks/clientForm.scss';
+@import './blocks/common.scss';
+@import './blocks/openFrom.scss';
+@import './blocks/clientList.scss';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    color: $main-color;
+    background: $main-color;
+}
